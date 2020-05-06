@@ -2,11 +2,11 @@ require 'pry'
 
 class String
 
-  def sentence?(final_character)
-    if self.end_with?(final_character)
-      false
-    else
+  def sentence?
+    if self.end_with?
       true
+    else
+      false
     end
   end
 
