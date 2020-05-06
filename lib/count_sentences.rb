@@ -7,6 +7,7 @@ class String
       false
     else
       true
+    end
   end
 
   def question?
