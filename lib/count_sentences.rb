@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences(string)
-    self.count_sentences(string)
+    if self.end_with(".")
   end
 end
