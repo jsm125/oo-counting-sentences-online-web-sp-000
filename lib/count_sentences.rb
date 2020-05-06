@@ -2,11 +2,11 @@ require 'pry'
 
 class String
 
-  def sentence?(last_punctuation)
-    if self.last_punctuation.end_with? == .
-      true 
-    else
+  def sentence?
+    if self.end_with? == ?
       false
+    else
+      true
   end
 
   def question?
