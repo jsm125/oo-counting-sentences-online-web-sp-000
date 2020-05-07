@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     new sentence_array = self.split(/[.?!]/).reject
-    return sentence_array
+    return sentence_array.length 
   end
 end
